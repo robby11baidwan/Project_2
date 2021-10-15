@@ -47,3 +47,17 @@ for chart in charts:
     plt.xlabel('Date')
     plt.legend(loc="upper left")
 st.pyplot()
+
+
+def credits(content):
+    st.markdown(
+        f'<p style="color:{"#f63366"};">{content}</p>',
+        unsafe_allow_html=True)
+
+
+st.text("")
+st.text("")
+credits("Made By:")
+credits("Brijeshwar Singh")
+credits("101803170")
+credits("COE-9")
